@@ -1,0 +1,139 @@
+body {
+    font-family: "Verdana", sans-serif; /* Change the font family to Verdana */
+    background-color: #170020;
+    color: #ffffff;
+    animation: animateBackground 10s ease infinite;
+}
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+section {
+    text-align: center;
+}
+body {
+    position: relative;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #11213a;
+}
+
+.cell {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #8307b0;
+    border: 2px solid #52005e;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    border-radius: solid 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #9c36c8;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Update grid-template-columns */
+    max-width: 306px; /* Change width to max-width */
+    width: 100%; /* Add this to make it responsive */
+    margin: 10px auto;
+    background-color: #426193;
+    color: #fbfbfb;
+    border-radius: solid 2px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #8b2fb3;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #3b0377;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: #efeeef;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px; /* Increase the border-radius for a rounded button */
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.game--restart:hover {
+    color: #a740d3; /* Change the background color on hover */
+    color: #c035ca; /* Change the text color on hover */
+}
+
+/* Rest of the CSS code */
+
+
+/* Add the following CSS for animations */
+@keyframes cellAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    background-color: #440268;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    animation: cellAnimation 0.5s ease;
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restart-btn:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #5e5e5e;
+  }
