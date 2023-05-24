@@ -1,10 +1,11 @@
 # Tic-Tac-Toe: A Game Project
 
-![Tic-Tac-Toe](screenshot.png)
-
 Welcome to Tic-Tac-Toe, a classic game implemented using JavaScript. This project provides a web-based interface for playing Tic-Tac-Toe against another player.
 
 The game is deployed and accessible at: [https://tictactoe-with-neeraj542.netlify.app/](https://tictactoe-with-neeraj542.netlify.app/)
+
+![image](https://github.com/neeraj542/Tic-Tac-Toe-A-Game-Project/assets/114648043/41aebf6f-ea1b-4dd3-8e71-1e765e4a8335)
+
 
 ## Installation
 
@@ -32,7 +33,5 @@ Contributions to this project are welcome. If you encounter any issues or have s
 ## License
 This project is licensed under the MIT License.
 
-
-Please note that in the installation section, you need to replace `your-username` with your actual GitHub username, and in the screenshot path (`screenshot.png`), provide the actual filename and path to your screenshot image.
 
 Feel free to modify the content and structure of the README.md file as needed to suit your project's specific details and requirements.
